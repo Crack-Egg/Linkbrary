@@ -154,3 +154,12 @@ header {
   padding-top: 0.2rem;
   background-color: var(--yellow2);
 }
+
+@media (max-width: 767px) {
+  body {
+    background-color: var(--mainbg);
+    display: flex;
+    flex-direction: column;
+    padding: 12rem 3.2rem 11.9rem 3.3rem;
+  }
+}
