@@ -160,6 +160,6 @@ header {
     background-color: var(--mainbg);
     display: flex;
     flex-direction: column;
-    padding: 12rem 3.2rem 11.9rem 3.3rem;
+    padding: 12rem 3.2rem 11.9rem 3.3rem; 
   }
 }
