@@ -265,7 +265,7 @@ footer {
 /* -------------------------- */
 /* Mobile */
 @media (max-width: 767px) {
-  .header-box {
+  .nav-box {
     height: 6.3rem;
     padding-top: 0 3.2rem;
   }
@@ -314,7 +314,7 @@ footer {
     row-gap: 2rem;
     height: auto;
     padding: 4rem 0;
-    grid-template:
+    grid-template-areas:
       "title"
       "image"
       "description";
@@ -349,5 +349,9 @@ footer {
   
   .footer-links {
     grid-area: links;
+  }
+
+  .sns {
+    grid-area: sns;
   }
 }
